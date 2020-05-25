@@ -58,9 +58,9 @@ public class AWTFactorial extends JFrame implements ActionListener {
 		
 		Object source = event.getSource();
 		
+		/** currentN needs to be initialized, so I initialized it as 0.  */
 		int currentN = 0;
 		
-		/** currentN remains as 0 if I don't have a valid input.  */
 		try {
 			currentN = Integer.parseInt(n.getText());
 		}
